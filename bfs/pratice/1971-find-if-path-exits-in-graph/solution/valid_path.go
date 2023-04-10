@@ -1,8 +1,9 @@
 package solution
 
 func ValidPath(n int, edges [][]int, source int, destination int) bool {
-	// use bfs for searching
-	// find from start and meet target, return true
+	/*
+		the main point: basically, using bfs for searching from source and source's neighborhoods
+	*/
 
 	/* read graph, numVertex, adjacencyList */
 
@@ -10,7 +11,7 @@ func ValidPath(n int, edges [][]int, source int, destination int) bool {
 		use queue to hold the processed node
 		use visited to hold the visited node
 
-		searching from start node, and move to neighborhood nodes and go on, go on ... when queue is not empty
+		searching from source node, and move to neighborhood nodes and go on, go on ... when queue is not empty
 		if found target, break loop and return result.
 		otherwise, return false at outside loop.
 	*/
