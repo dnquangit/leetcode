@@ -1,0 +1,7 @@
+- input: danh sách kề
+- output: trả về clone graph / clone node
+----------------------------------
+    - cần phải duyệt qua danh sách kề và clone từng node và cạnh .
+        - bản chất duyệt qua danh sách kề là duyệt theo BFS và queue.
+        => dùng BFS travel qua danh sách kề và clone tùng node và node's Neighbors
+    - đây là đồ thị liên thông => travel bfs via Neighbors []*Node should be ok
