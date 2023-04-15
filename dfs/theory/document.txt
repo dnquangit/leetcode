@@ -1,0 +1,8 @@
+https://vnoi.info/wiki/algo/graph-theory/Depth-First-Search-Tree.md#c%C3%A2y-duy%E1%BB%87t-chi%E1%BB%81u-s%C3%A2u-dfs-c%C3%A2y-dfs
+Duoc dùng trong đồ thi vô hướng, có hướng và không có trọng số.
+
+ứng dụng:
+	- Cycle detection 			- tìm cách điểm nối nhau bởi vòng tròn
+	- Find connected graph		- tìm đồ thị liên thông
+	- Topological sort			- 
+	- Maze generation			- Generate ma trận
